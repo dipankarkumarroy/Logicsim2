@@ -1,0 +1,320 @@
+{
+  "scale": 0.7478430961131748,
+  "offset": {
+    "x": -599.0578389178496,
+    "y": -30.698435869389783
+  },
+  "globalLabelsVisible": true,
+  "components": [
+    {
+      "type": "JK_FF",
+      "x": 678.804411331711,
+      "y": 262.6990960434624,
+      "id": "comp_8cvqtrdfz",
+      "w": 60,
+      "h": 100,
+      "name": "JK_FF",
+      "frequency": 1,
+      "color": "#be185d",
+      "showLabel": true,
+      "bits": 4
+    },
+    {
+      "type": "JK_FF",
+      "x": 916.939107501771,
+      "y": 251.06255834593554,
+      "id": "comp_vn7vsckug",
+      "w": 60,
+      "h": 100,
+      "name": "JK_FF",
+      "frequency": 1,
+      "color": "#be185d",
+      "showLabel": true,
+      "bits": 4
+    },
+    {
+      "type": "VCC",
+      "x": 473.85274188104313,
+      "y": 169.58613219701084,
+      "id": "comp_enna7rdxq",
+      "w": 40,
+      "h": 40,
+      "name": "VCC",
+      "frequency": 1,
+      "color": "#2d3748",
+      "showLabel": true,
+      "bits": 4
+    },
+    {
+      "type": "CLOCK",
+      "x": 473.76022767262856,
+      "y": 289.8278556956738,
+      "id": "comp_ftobi7sof",
+      "w": 40,
+      "h": 40,
+      "name": "CLOCK",
+      "frequency": 0.5,
+      "color": "#2d3748",
+      "showLabel": true,
+      "bits": 4
+    },
+    {
+      "type": "HEX_DISPLAY",
+      "x": 959.9309138860929,
+      "y": 533.8566611185303,
+      "id": "comp_hpg5nmf5u",
+      "w": 60,
+      "h": 80,
+      "name": "HEX_DISPLAY",
+      "frequency": 1,
+      "color": "#000",
+      "showLabel": true,
+      "bits": 4
+    },
+    {
+      "type": "HEX_DISPLAY",
+      "x": 873.1040385866327,
+      "y": 532.7436036973771,
+      "id": "comp_4ymk511wi",
+      "w": 60,
+      "h": 80,
+      "name": "HEX_DISPLAY",
+      "frequency": 1,
+      "color": "#000",
+      "showLabel": true,
+      "bits": 4
+    },
+    {
+      "type": "NOT",
+      "x": 840.6383728206574,
+      "y": 392.8574374392493,
+      "id": "comp_upcz1gi8s",
+      "w": 40,
+      "h": 40,
+      "name": "NOT",
+      "frequency": 1,
+      "color": "#4a5568",
+      "showLabel": true,
+      "bits": 4
+    },
+    {
+      "type": "NOT",
+      "x": 938.028646358523,
+      "y": 395.6320616428443,
+      "id": "comp_1ms2b4qoo",
+      "w": 40,
+      "h": 40,
+      "name": "NOT",
+      "frequency": 1,
+      "color": "#4a5568",
+      "showLabel": true,
+      "bits": 4
+    },
+    {
+      "type": "OR",
+      "x": 1125.9144126394701,
+      "y": 447.2225662576532,
+      "id": "comp_g9ph2ltg8",
+      "w": 60,
+      "h": 40,
+      "name": "OR",
+      "frequency": 1,
+      "color": "#4a5568",
+      "showLabel": true,
+      "bits": 4
+    },
+    {
+      "type": "HEX_DISPLAY",
+      "x": 1242.6718530704732,
+      "y": 530.3693488866002,
+      "id": "comp_vfetqwt7t",
+      "w": 60,
+      "h": 80,
+      "name": "HEX_DISPLAY",
+      "frequency": 1,
+      "color": "#000",
+      "showLabel": true,
+      "bits": 4
+    }
+  ],
+  "wires": [
+    {
+      "startCompId": "comp_enna7rdxq",
+      "startIndex": 0,
+      "endCompId": "comp_8cvqtrdfz",
+      "endIndex": 0,
+      "points": [
+        {
+          "x": 668.1962366938036,
+          "y": 188.22414167802293
+        },
+        {
+          "x": 668.0479289385672,
+          "y": 275.7806366672449
+        }
+      ]
+    },
+    {
+      "startCompId": "comp_enna7rdxq",
+      "startIndex": 0,
+      "endCompId": "comp_8cvqtrdfz",
+      "endIndex": 2,
+      "points": [
+        {
+          "x": 668.0479289385672,
+          "y": 275.7806366672449
+        },
+        {
+          "x": 648.2774545174095,
+          "y": 344.97729714129696
+        }
+      ]
+    },
+    {
+      "startCompId": "comp_enna7rdxq",
+      "startIndex": 0,
+      "endCompId": "comp_vn7vsckug",
+      "endIndex": 0,
+      "points": [
+        {
+          "x": 668.1962366938036,
+          "y": 187.55382163198732
+        },
+        {
+          "x": 906.154675031968,
+          "y": 264.19768707521416
+        }
+      ]
+    },
+    {
+      "startCompId": "comp_enna7rdxq",
+      "startIndex": 0,
+      "endCompId": "comp_vn7vsckug",
+      "endIndex": 2,
+      "points": [
+        {
+          "x": 906.154675031968,
+          "y": 264.19768707521416
+        },
+        {
+          "x": 884.7551118636953,
+          "y": 330.58884961809497
+        }
+      ]
+    },
+    {
+      "startCompId": "comp_ftobi7sof",
+      "startIndex": 0,
+      "endCompId": "comp_8cvqtrdfz",
+      "endIndex": 1,
+      "points": []
+    },
+    {
+      "startCompId": "comp_8cvqtrdfz",
+      "startIndex": 0,
+      "endCompId": "comp_vn7vsckug",
+      "endIndex": 1,
+      "points": [
+        {
+          "x": 856.4179209594053,
+          "y": 304.6053342343143
+        },
+        {
+          "x": 856.4179209594053,
+          "y": 305.71050515238994
+        },
+        {
+          "x": 857.0142648929135,
+          "y": 305.0058987910281
+        }
+      ]
+    },
+    {
+      "startCompId": "comp_vn7vsckug",
+      "startIndex": 0,
+      "endCompId": "comp_1ms2b4qoo",
+      "endIndex": 0,
+      "points": [
+        {
+          "x": 1019.9832168346007,
+          "y": 378.6517857453827
+        }
+      ]
+    },
+    {
+      "startCompId": "comp_8cvqtrdfz",
+      "startIndex": 0,
+      "endCompId": "comp_upcz1gi8s",
+      "endIndex": 0,
+      "points": [
+        {
+          "x": 856.4179209594053,
+          "y": 304.6053342343143
+        }
+      ]
+    },
+    {
+      "startCompId": "comp_1ms2b4qoo",
+      "startIndex": 0,
+      "endCompId": "comp_4ymk511wi",
+      "endIndex": 0,
+      "points": [
+        {
+          "x": 999.6530697273834,
+          "y": 480.9835505259953
+        },
+        {
+          "x": 1000.0901403092395,
+          "y": 480.01561852496803
+        }
+      ]
+    },
+    {
+      "startCompId": "comp_upcz1gi8s",
+      "startIndex": 0,
+      "endCompId": "comp_hpg5nmf5u",
+      "endIndex": 0,
+      "points": [
+        {
+          "x": 908.6314473497177,
+          "y": 444.3332512500326
+        },
+        {
+          "x": 908.3609541089608,
+          "y": 445.16195808113036
+        }
+      ]
+    },
+    {
+      "startCompId": "comp_upcz1gi8s",
+      "startIndex": 0,
+      "endCompId": "comp_g9ph2ltg8",
+      "endIndex": 0,
+      "points": [
+        {
+          "x": 908.6314473497177,
+          "y": 444.3332512500326
+        }
+      ]
+    },
+    {
+      "startCompId": "comp_1ms2b4qoo",
+      "startIndex": 0,
+      "endCompId": "comp_g9ph2ltg8",
+      "endIndex": 1,
+      "points": [
+        {
+          "x": 999.6530697273834,
+          "y": 480.9835505259953
+        }
+      ]
+    },
+    {
+      "startCompId": "comp_g9ph2ltg8",
+      "startIndex": 0,
+      "endCompId": "comp_vfetqwt7t",
+      "endIndex": 0,
+      "points": []
+    }
+  ]
+}
